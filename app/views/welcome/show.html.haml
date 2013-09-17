@@ -1,0 +1,67 @@
+-content_for :head do
+  = stylesheet_link_tag 'show'
+.navbar.navbar-inverse.navbar-fixed-top
+  .container
+    .navbar-header
+      %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{:href => "#"} Project name
+    .navbar-collapse.collapse
+      %ul.nav.navbar-nav
+        %li.active
+          %a{:href => '#'} Home
+        %li
+          %a{:href => '#'} About
+        %li
+          %a{:href => '#'} Contact
+        %li.dropdown
+          %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"} 
+            Dropdown
+            %b.caret
+          %ul.dropdown-menu
+            %li
+              %a{:href => '#'} Action
+            %li
+              %a{:href => '#'} Another Action
+            %li
+              %a{:href => '#'} Something else here
+            %li.divider
+            %li.dropdown-header Nav header
+            %li
+              %a{:href => '#'} Separated link
+            %li
+              %a{:href => '#'} One more separated link
+      %form.navbar-form.navbar-right
+        .form-group
+          %input.form-control{:placeholder => "Email",:type => "text"}
+        .form-group
+          %input.form-control{:type => "password", :placeholder => "Password"}
+        %button.btn.btn-success{:type => "submit"} Sign in        
+.jumbotron
+  .container
+    %h1 Hello, world!
+    %p This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+    %p
+      %a.btn.btn-primary.btn-lg Learn more
+.container
+  .row
+    .col-lg-4
+      %h2 Heading
+      %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+      %p
+        %a.btn.btn-default{:href => '#'} View details >>
+    .col-lg-4
+      %h2 Heading
+      %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+      %p
+        %a.btn.btn-default{:href => '#'} View details >> 
+    .col-lg-4
+      %h2 Heading
+      %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+      %p
+        %a.btn.btn-default{:href => '#'} View details >> 
+  %hr/
+  .footer
+    %p © Company 2013        
