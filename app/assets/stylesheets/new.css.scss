@@ -71,12 +71,61 @@ header {
 
 .row{
 	text-align: center;
-	padding: 20px;
+	padding-top: 20px;
 	.big{
 		font-size: 35px;
 		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	}
+	.house_image{
+		background: url("house.png") no-repeat;
+		height: 520px;
+		width: 810px;
+		margin: auto; 
+	}
 }
+.data{
+	text-align: left;
+	padding:  0px;
+	h1{
+		font-size: 55px;
+	}
+	p {
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 20px;
+		
+	}
+	.btn{
+		border-radius: 0px;
+		height: 90px;
+	}
+	.container{
+		.highlight{
+			font-weight: bold;
+		}
+		.btn{
+			background-image: -o-linear-gradient(bottom, #F8F8F8 15%, #F3F3F3 58%, #F2F2F2 79%);
+			background-image: -moz-linear-gradient(bottom, #F8F8F8 15%, #F3F3F3 58%, #F2F2F2 79%);
+			background-image: -webkit-linear-gradient(bottom, #F8F8F8 15%, #F3F3F3 58%, #F2F2F2 79%);
+			background-image: -ms-linear-gradient(bottom, #F8F8F8 15%, #F3F3F3 58%, #F2F2F2 79%);
+			padding: 20px 30px;
+		}
+	}
+	.msg_image{
+		display: inline-block;
+		height: 18px;
+		width: 28px;
+		background: url('message.png') no-repeat; 
+	}
+}
+.footer_image{
+	background: url('footer.png');
+	padding: 10px;
+	p{
+		color: #7D8086;
+	}
+
+}
+	
 
  
 
